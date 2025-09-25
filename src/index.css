@@ -2,39 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Bowl Collection Design System - Minimalist & Elegant */
 
 @layer base {
   :root {
+    /* Neutral base colors */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
+    --foreground: 210 10% 15%;
+    
+    /* Card and surface colors */
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
+    --card-foreground: 210 10% 15%;
+    
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --popover-foreground: 210 10% 15%;
+    
+    /* Brand colors - soft green accent */
+    --primary: 140 35% 45%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Secondary neutral tones */
+    --secondary: 210 5% 96%;
+    --secondary-foreground: 210 10% 25%;
+    
+    /* Muted backgrounds */
+    --muted: 210 8% 97%;
+    --muted-foreground: 210 10% 50%;
+    
+    /* Accent green */
+    --accent: 140 35% 45%;
+    --accent-foreground: 0 0% 100%;
+    
+    /* Destructive states */
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
+    
+    /* Borders and inputs */
+    --border: 210 10% 88%;
+    --input: 210 10% 88%;
+    --ring: 140 35% 45%;
+    
+    /* Hero section colors */
+    --hero-background: 35 15% 97%;
+    --hero-foreground: 210 10% 15%;
+    
+    /* Product section */
+    --product-background: 0 0% 100%;
+    --product-card: 0 0% 100%;
+    
+    /* Collection colors */
+    --collection-background: 210 8% 97%;
+    
+    /* Typography scale */
+    --font-size-hero: 4rem;
+    --font-size-title: 2.5rem;
+    --font-size-subtitle: 1.25rem;
+    --font-size-body: 1rem;
+    --font-size-small: 0.875rem;
 
     --radius: 0.5rem;
 

@@ -47,6 +47,17 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        hero: {
+          DEFAULT: "hsl(var(--hero-background))",
+          foreground: "hsl(var(--hero-foreground))",
+        },
+        product: {
+          DEFAULT: "hsl(var(--product-background))",
+          card: "hsl(var(--product-card))",
+        },
+        collection: {
+          DEFAULT: "hsl(var(--collection-background))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
